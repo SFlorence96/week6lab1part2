@@ -16,7 +16,4 @@ for (let i = 0 ; i < post.length ; i ++)
   </div> 
 </div>  ;   
 }
-   
-
-
 section.innerHTML += bootstrapCard ; 
