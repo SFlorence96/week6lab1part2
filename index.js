@@ -8,7 +8,7 @@ let section = document.getElementById("section") ;
 for (let i = 0 ; i < post.length ; i ++)  
 {  let bootstrapCard = 
 <div class="card" style="width: 18rem;">
-  <img src="${post[i].src}" class="card-img-top" alt="This is alt text">
+  <img src="https://placehold.co/600x400" class="card-img-top" alt="This is alt text"> </img>
   <div class="card-body">
     <h5 class="card-title">${post[i].title}</h5>
     <p class="card-text">${post[i].date}</p>
@@ -16,6 +16,7 @@ for (let i = 0 ; i < post.length ; i ++)
   </div> 
 </div>  ;   
 }
+   
 
 
 section.innerHTML += bootstrapCard ; 
