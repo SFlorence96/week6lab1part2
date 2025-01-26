@@ -17,3 +17,4 @@ for (let i = 0 ; i < post.length ; i ++)
 </div>  ;   
 }
 section.innerHTML += bootstrapCard ; 
+  
